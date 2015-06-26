@@ -1,0 +1,452 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		287927E01B3DA8C8000C93EC /* MapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 287927DF1B3DA8C8000C93EC /* MapViewController.swift */; };
+		287927E41B3DA9C4000C93EC /* FBSDKCoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 287927E11B3DA9C4000C93EC /* FBSDKCoreKit.framework */; };
+		287927E51B3DA9C4000C93EC /* FBSDKLoginKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 287927E21B3DA9C4000C93EC /* FBSDKLoginKit.framework */; };
+		287927E61B3DA9C4000C93EC /* FBSDKShareKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 287927E31B3DA9C4000C93EC /* FBSDKShareKit.framework */; };
+		39055AC61B3B985A005AED2E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39055AC51B3B985A005AED2E /* AppDelegate.swift */; };
+		39055AC81B3B985A005AED2E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39055AC71B3B985A005AED2E /* ViewController.swift */; };
+		39055ACB1B3B985A005AED2E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 39055AC91B3B985A005AED2E /* Main.storyboard */; };
+		39055ACD1B3B985A005AED2E /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 39055ACC1B3B985A005AED2E /* Images.xcassets */; };
+		39055AD01B3B985A005AED2E /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 39055ACE1B3B985A005AED2E /* LaunchScreen.xib */; };
+		39055ADC1B3B985A005AED2E /* HackNTU_MapTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39055ADB1B3B985A005AED2E /* HackNTU_MapTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		39055AD61B3B985A005AED2E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 39055AB81B3B985A005AED2E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 39055ABF1B3B985A005AED2E;
+			remoteInfo = HackNTU_Map;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		287927DF1B3DA8C8000C93EC /* MapViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MapViewController.swift; sourceTree = "<group>"; };
+		287927E11B3DA9C4000C93EC /* FBSDKCoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FBSDKCoreKit.framework; path = ../../../Documents/FacebookSDK/FBSDKCoreKit.framework; sourceTree = "<group>"; };
+		287927E21B3DA9C4000C93EC /* FBSDKLoginKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FBSDKLoginKit.framework; path = ../../../Documents/FacebookSDK/FBSDKLoginKit.framework; sourceTree = "<group>"; };
+		287927E31B3DA9C4000C93EC /* FBSDKShareKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FBSDKShareKit.framework; path = ../../../Documents/FacebookSDK/FBSDKShareKit.framework; sourceTree = "<group>"; };
+		39055AC01B3B985A005AED2E /* HackNTU_Map.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HackNTU_Map.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		39055AC41B3B985A005AED2E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		39055AC51B3B985A005AED2E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		39055AC71B3B985A005AED2E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		39055ACA1B3B985A005AED2E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		39055ACC1B3B985A005AED2E /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		39055ACF1B3B985A005AED2E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		39055AD51B3B985A005AED2E /* HackNTU_MapTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HackNTU_MapTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		39055ADA1B3B985A005AED2E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		39055ADB1B3B985A005AED2E /* HackNTU_MapTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HackNTU_MapTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		39055ABD1B3B985A005AED2E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				287927E51B3DA9C4000C93EC /* FBSDKLoginKit.framework in Frameworks */,
+				287927E41B3DA9C4000C93EC /* FBSDKCoreKit.framework in Frameworks */,
+				287927E61B3DA9C4000C93EC /* FBSDKShareKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		39055AD21B3B985A005AED2E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		39055AB71B3B985A005AED2E = {
+			isa = PBXGroup;
+			children = (
+				39055AC21B3B985A005AED2E /* HackNTU_Map */,
+				39055AD81B3B985A005AED2E /* HackNTU_MapTests */,
+				39055AC11B3B985A005AED2E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		39055AC11B3B985A005AED2E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				39055AC01B3B985A005AED2E /* HackNTU_Map.app */,
+				39055AD51B3B985A005AED2E /* HackNTU_MapTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		39055AC21B3B985A005AED2E /* HackNTU_Map */ = {
+			isa = PBXGroup;
+			children = (
+				287927E11B3DA9C4000C93EC /* FBSDKCoreKit.framework */,
+				287927E21B3DA9C4000C93EC /* FBSDKLoginKit.framework */,
+				287927E31B3DA9C4000C93EC /* FBSDKShareKit.framework */,
+				39055AC51B3B985A005AED2E /* AppDelegate.swift */,
+				39055AC71B3B985A005AED2E /* ViewController.swift */,
+				39055AC91B3B985A005AED2E /* Main.storyboard */,
+				39055ACC1B3B985A005AED2E /* Images.xcassets */,
+				39055ACE1B3B985A005AED2E /* LaunchScreen.xib */,
+				39055AC31B3B985A005AED2E /* Supporting Files */,
+				287927DF1B3DA8C8000C93EC /* MapViewController.swift */,
+			);
+			path = HackNTU_Map;
+			sourceTree = "<group>";
+		};
+		39055AC31B3B985A005AED2E /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				39055AC41B3B985A005AED2E /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		39055AD81B3B985A005AED2E /* HackNTU_MapTests */ = {
+			isa = PBXGroup;
+			children = (
+				39055ADB1B3B985A005AED2E /* HackNTU_MapTests.swift */,
+				39055AD91B3B985A005AED2E /* Supporting Files */,
+			);
+			path = HackNTU_MapTests;
+			sourceTree = "<group>";
+		};
+		39055AD91B3B985A005AED2E /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				39055ADA1B3B985A005AED2E /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		39055ABF1B3B985A005AED2E /* HackNTU_Map */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 39055ADF1B3B985A005AED2E /* Build configuration list for PBXNativeTarget "HackNTU_Map" */;
+			buildPhases = (
+				39055ABC1B3B985A005AED2E /* Sources */,
+				39055ABD1B3B985A005AED2E /* Frameworks */,
+				39055ABE1B3B985A005AED2E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = HackNTU_Map;
+			productName = HackNTU_Map;
+			productReference = 39055AC01B3B985A005AED2E /* HackNTU_Map.app */;
+			productType = "com.apple.product-type.application";
+		};
+		39055AD41B3B985A005AED2E /* HackNTU_MapTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 39055AE21B3B985A005AED2E /* Build configuration list for PBXNativeTarget "HackNTU_MapTests" */;
+			buildPhases = (
+				39055AD11B3B985A005AED2E /* Sources */,
+				39055AD21B3B985A005AED2E /* Frameworks */,
+				39055AD31B3B985A005AED2E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				39055AD71B3B985A005AED2E /* PBXTargetDependency */,
+			);
+			name = HackNTU_MapTests;
+			productName = HackNTU_MapTests;
+			productReference = 39055AD51B3B985A005AED2E /* HackNTU_MapTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		39055AB81B3B985A005AED2E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0630;
+				ORGANIZATIONNAME = "Zero Lin";
+				TargetAttributes = {
+					39055ABF1B3B985A005AED2E = {
+						CreatedOnToolsVersion = 6.3.2;
+					};
+					39055AD41B3B985A005AED2E = {
+						CreatedOnToolsVersion = 6.3.2;
+						TestTargetID = 39055ABF1B3B985A005AED2E;
+					};
+				};
+			};
+			buildConfigurationList = 39055ABB1B3B985A005AED2E /* Build configuration list for PBXProject "HackNTU_Map" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 39055AB71B3B985A005AED2E;
+			productRefGroup = 39055AC11B3B985A005AED2E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				39055ABF1B3B985A005AED2E /* HackNTU_Map */,
+				39055AD41B3B985A005AED2E /* HackNTU_MapTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		39055ABE1B3B985A005AED2E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				39055ACB1B3B985A005AED2E /* Main.storyboard in Resources */,
+				39055AD01B3B985A005AED2E /* LaunchScreen.xib in Resources */,
+				39055ACD1B3B985A005AED2E /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		39055AD31B3B985A005AED2E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		39055ABC1B3B985A005AED2E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				39055AC81B3B985A005AED2E /* ViewController.swift in Sources */,
+				287927E01B3DA8C8000C93EC /* MapViewController.swift in Sources */,
+				39055AC61B3B985A005AED2E /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		39055AD11B3B985A005AED2E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				39055ADC1B3B985A005AED2E /* HackNTU_MapTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		39055AD71B3B985A005AED2E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 39055ABF1B3B985A005AED2E /* HackNTU_Map */;
+			targetProxy = 39055AD61B3B985A005AED2E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		39055AC91B3B985A005AED2E /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				39055ACA1B3B985A005AED2E /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		39055ACE1B3B985A005AED2E /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				39055ACF1B3B985A005AED2E /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		39055ADD1B3B985A005AED2E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		39055ADE1B3B985A005AED2E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		39055AE01B3B985A005AED2E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					/Users/abby/Documents/FacebookSDK,
+				);
+				INFOPLIST_FILE = HackNTU_Map/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		39055AE11B3B985A005AED2E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					/Users/abby/Documents/FacebookSDK,
+				);
+				INFOPLIST_FILE = HackNTU_Map/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		39055AE31B3B985A005AED2E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = HackNTU_MapTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HackNTU_Map.app/HackNTU_Map";
+			};
+			name = Debug;
+		};
+		39055AE41B3B985A005AED2E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = HackNTU_MapTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HackNTU_Map.app/HackNTU_Map";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		39055ABB1B3B985A005AED2E /* Build configuration list for PBXProject "HackNTU_Map" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				39055ADD1B3B985A005AED2E /* Debug */,
+				39055ADE1B3B985A005AED2E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		39055ADF1B3B985A005AED2E /* Build configuration list for PBXNativeTarget "HackNTU_Map" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				39055AE01B3B985A005AED2E /* Debug */,
+				39055AE11B3B985A005AED2E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		39055AE21B3B985A005AED2E /* Build configuration list for PBXNativeTarget "HackNTU_MapTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				39055AE31B3B985A005AED2E /* Debug */,
+				39055AE41B3B985A005AED2E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 39055AB81B3B985A005AED2E /* Project object */;
+}
